@@ -1,5 +1,10 @@
 from fastapi import FastAPI
 
+
+
+
+
+
 app=FastAPI()
 
 
@@ -7,7 +12,7 @@ app=FastAPI()
 @app.get('/')
 
 def index():
-  return {"data":{"name":"Bimal"}}
+  return {"data":{"name":"Bimal","job":"No "}}
 
 @app.get('/about')
 def about():

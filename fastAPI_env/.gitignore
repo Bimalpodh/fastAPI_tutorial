@@ -1,3 +1,37 @@
-__pychache__
-fastapi_env
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.db
+*.sqlite3
+*.env
+*.env.*
+
+# FastAPI / Uvicorn
+instance/
+.env
+.env.*
+
+# Virtual environment
+venv/
+env/
+fastAPI_env/
+*.egg-info/
+.eggs/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mac/Linux/Windows system files
 .DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+.cache/
